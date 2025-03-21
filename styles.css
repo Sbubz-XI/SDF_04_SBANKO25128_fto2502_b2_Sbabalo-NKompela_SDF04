@@ -1,6 +1,23 @@
 .contents {
     display: flex;
 }
- h1 {
-    color: #659f8f;
+
+ .whole-footer {
+    color: #313131;
+    border: 1px solid #659f8f;
+    background-color: #659f8f;
+
+ }
+
+ #email-input {
+    border: 0px solid;
+    border-radius: 2px;
+    padding: 10px;
+ }
+
+ #subscribe-button {
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    text-align: center;
  }
