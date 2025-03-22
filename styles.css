@@ -36,11 +36,13 @@ footer {
 
  #subscribe-button {
     border: 0px;
-    border-radius: 6px;
+    border-radius: 10px;
     background-color: rgba(230, 103, 19, 0.877);
     color: white;
     padding: 11px 21px 11px 21px;
     text-align: center;
+    font-weight: 500;
+
  }
 
  h3{
@@ -185,3 +187,64 @@ footer {
 
 
 }
+
+@media (max-width: 375px){
+
+   footer {
+      margin: 20px 25px 10px 25px;
+   }
+
+   .all-contents{
+      padding: 50px 50px 20px 50px;
+   
+   }
+
+   .contents {
+      gap: 20px
+   }
+   
+   .sec-1 {
+         display: block;
+      }
+
+   
+
+   .lists {
+      display: block;
+
+   }
+
+   h3{
+      text-size-adjust: 100px
+   }
+
+   h4 {
+      text-size-adjust: 85%;
+      margin-bottom: 20px;
+   }
+   
+   .flex {
+      width: 70%
+   }
+
+   #email-input {
+      justify-content: center;
+      width: 220px;
+      height: 35px;
+      margin-bottom: 10px;
+      padding-left: 15px
+   }
+
+   #subscribe-button {
+      justify-content: center;
+      width: 220px;
+
+   }
+
+   .social-icons{
+      width: 
+   }
+
+   
+}
+
